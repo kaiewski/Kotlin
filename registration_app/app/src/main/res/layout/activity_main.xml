@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2b2d30"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Создание аккаунта"
+        android:fontFamily="@font/inter_black"
+        android:inputType="text"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="170sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userLogin"
+        android:layout_width="220sp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textColorHint="#6a6a6a"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff"
+        android:inputType="text"
+        android:hint="Логин" />
+
+    <EditText
+        android:id="@+id/userMail"
+        android:layout_width="220sp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textColorHint="#6a6a6a"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff"
+        android:inputType="textEmailAddress"
+        android:hint="Почта" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="220sp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textColorHint="#6a6a6a"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:textColor="#ffffff"
+        android:inputType="textPassword"
+        android:hint="Пароль" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#4fa2d3"
+        android:text="Регистрация"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/linkToAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="112sp"
+        android:fontFamily="@font/inter_bold"
+        android:inputType="text"
+        android:text="Авторизоваться"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
